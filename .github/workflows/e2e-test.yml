@@ -26,13 +26,13 @@ jobs:
             "e2e/**",
             "Gemfile.lock",
             "bun.lockb"
-            ]'
+          ]'
           paths_ignore: '[
             "gem/config/**",
             "gem/locales/**",
             "!gem/locales/en.yml",
             "**/*.md"
-            ]'
+          ]'
           do_not_skip: '["workflow_dispatch"]'
 
   e2e_test:
