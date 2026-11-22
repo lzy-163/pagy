@@ -10,7 +10,6 @@ on:
 jobs:
   skip_check:
     name: Skip Check
-    continue-on-error: true
     runs-on: ubuntu-latest
     outputs:
       should_skip: ${{ steps.skip_check.outputs.should_skip }}
